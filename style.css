@@ -1,0 +1,31 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.carousel-item{
+    padding: 20px 40px;
+
+}
+
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
+    color:white;
+    border: none;
+    border-radius: 9px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+#cat-line{
+    margin-top: 5px;
+    height: 6px;
+    width: 7em;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, yellow 0%, orange 100%);
+    background-image: -o-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
+    background-image: -moz-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
+    background-image: -webkit-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
+    background-image: -ms-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
+}
