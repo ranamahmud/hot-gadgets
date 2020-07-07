@@ -1,23 +1,21 @@
-.container{
+.container {
     margin-bottom: 100px;
 }
 
-.carousel-item{
+.carousel-item {
     padding: 20px 40px;
-
 }
 
-
-.buy-now-button{
+.buy-now-button {
     background-image: linear-gradient(to bottom, #ff5898 0%, #ff136f 100%);
-    color:white;
+    color: white;
     border: none;
     border-radius: 9px;
     padding: 9px 25px;
     cursor: pointer;
 }
 
-#cat-line{
+#cat-line {
     margin-top: 5px;
     height: 6px;
     width: 7em;
@@ -30,14 +28,53 @@
     background-image: -ms-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
 }
 
-#header{
+#header {
     background-image: url("images/backgrounds/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left bottom;
+}
+
+.top-images {
+    background-image: url("images/backgrounds/bg-1.png");
     background-repeat: no-repeat;
     background-size: 10%;
 }
 
-.top-images{
-    background-image: url("images/backgrounds/bg-1.png");
-    background-repeat: no-repeat;
-    background-size: 10%;
+ol.carousel-indicators>li.active {
+    background-color: orange;
+    height: 7px;
+    width: 30px;
+    border-radius: 12px;
+}
+
+ol.carousel-indicators>li {
+    background-color: gray;
+    border-radius: 12px;
+    height: 7px;
+    width: 10px;
+}
+
+#smartphone>.card-deck {
+    margin-top: 50px;
+}
+#laptop >.card-deck{
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.cat1 {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 0px 20px 0px 20px;
+    /* height: 200px; */
+    /* width: 200px; */
+}
+.cat2 {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 20px 0px 20px 0px;
+    height: 200px;
+    width: 200px;
 }
