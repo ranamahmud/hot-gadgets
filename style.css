@@ -29,3 +29,15 @@
     background-image: -webkit-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
     background-image: -ms-linear-gradient(to right, #ff5898 0%, #ff136f 100%);
 }
+
+#header{
+    background-image: url("images/backgrounds/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
+
+.top-images{
+    background-image: url("images/backgrounds/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
